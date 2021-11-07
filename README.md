@@ -19,6 +19,8 @@ The app can be viewed via Heroku here: https://agile-woodland-57133.herokuapp.co
 
 ### Implementation Details:
 
-Instead of storing user data via cookies using Sinatra's `session` hash as we did in the previous version of this project, we're now using a separate class, `DatabasePersistence`, to connect to a Postgres database and store user data.
+The goal of this project was to take our small web application that was previously storing user data via cookies using Sinatra's `session` hash and modify it to use a PostgresSQL database instead.
+
+This version of the project is using a separate class, `DatabasePersistence`, to accomplish the connection to a Postgres database and the storage of user data.
 
 
