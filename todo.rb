@@ -1,9 +1,3 @@
-=begin
-
-My todo app's final code from the 175 course ended up being very different from the official LS solution. Because of this, I downloaded the offical LS code from 175 for the purpose of making it easier to complete the lessons for 185.
-
-=end
-
 require "sinatra"
 require "sinatra/content_for"
 require "tilt/erubis"
